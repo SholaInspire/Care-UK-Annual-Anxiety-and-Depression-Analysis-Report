@@ -1,0 +1,130 @@
+This report presents an analytical summary of Care UK’s annual data on anxiety and depression among patients. It consolidates key mental health metrics — such as depression scores, therapy sessions, stress levels, and substance use — into actionable insights. The purpose is to inform Care UK’s management and stakeholders on mental health trends and identify areas requiring intervention.
+
+1. Introduction
+Objective of the Project
+To analyze and visualize patient data to uncover patterns in anxiety and depression across demographics such as age, gender, education, and employment. The insights will guide strategic mental health initiatives and improve patient care services.
+
+Problem Being Addressed
+The increasing prevalence of anxiety and depression across generations requires data-driven solutions. Understanding which age groups, employment statuses, and genders are most affected enables targeted therapy programs and resource allocation.
+
+Key Datasets and Methodologies
+Dataset Size: 1,200 patient records.
+Data Fields: Age category, gender, depression score, sleep hours, education level, therapy count, stress level, and substance use.
+Tools Used: Microsoft Excel for data cleaning, analysis, and dashboard visualization.
+Methodology: Descriptive statistical analysis, visualization via bar and pie charts, and demographic segmentation.
+
+2. Story of Data
+Data Source
+The data was sourced from Care UK’s annual mental health survey and patient therapy logs compiled from clinics across multiple regions.
+
+Data Structure
+Structured tabular dataset with categorical and numerical fields. Major columns include:
+
+Demographics (Age, Gender, Employment Status, Education Level)
+Psychological Metrics (Depression Score, Stress Count, Therapy Count)
+Lifestyle Factors (Sleep Hours, Substance Use)
+Important Features and Their Significance
+Depression Score: Quantifies emotional well-being by age group.
+Therapy Count: Indicates engagement in treatment by gender.
+Stress Level: Captures education-related stress variation.
+Sleep Hours & Substance Use: Reflects lifestyle influences on mental health.
+Data Limitations or Biases
+Unequal gender representation (more females in therapy).
+Potential self-reporting bias in stress and substance data.
+Limited sample of 1,200 may not generalize nationally.
+
+3. Data Splitting and Preprocessing
+Data Cleaning
+Removed duplicate entries and standardized categorical labels (e.g., “Millennials,” “Gen Z”).
+
+Handling Missing Values
+Missing numerical fields were replaced with group medians to maintain data consistency.
+
+Data Transformations
+Normalized depression and stress scores for comparative visualization.
+
+Data Splitting
+Segregated by demographic variables (Gender, Age, Education, Employment) for targeted insights.
+
+Industry Context
+Care UK operates within the healthcare and wellness industry, focusing on preventative and therapeutic mental health services.
+
+Stakeholders
+Internal: Clinical psychologists, wellness program managers, HR, and data analytics teams.
+External: Patients, mental health advocacy groups, public health partners.
+Value to the Industry
+Provides a benchmark for patient mental health trends and supports data-backed decisions in wellness program design and therapy service distribution.
+
+4. Pre-Analysis
+Identify Key Trends
+Depression is highest among Gen X (3517) and lowest among Gen Z (2493).
+PhD holders show the highest stress levels (1275), suggesting academic stress correlation.
+Employed individuals have the highest substance use (320).
+Potential Correlations
+High stress levels correlate with higher education attainment.
+Decreased sleep hours appear linked to younger generations (Gen Z).
+Initial Insights
+The younger demographic (Gen Z) shows lower depression but poorer sleep, indicating early-stage burnout risks.
+
+5. In-Analysis
+Unconfirmed Insights
+Non-binary and “other” gender groups show distinct patterns but require larger sample sizes for confirmation.
+Employment may exacerbate substance dependency due to work-related stress.
+Recommendations
+Implement stress management workshops targeting highly educated professionals.
+Promote sleep hygiene programs for younger patients.
+Analysis Techniques Used in Excel
+Pivot tables for group aggregation.
+Conditional formatting for stress/depression intensity.
+Bar and pie charts for categorical comparison.
+Line chart for family mental illness trend across genders.
+
+6. Post-Analysis and Insights
+Key Findings
+Gender: Females recorded the highest therapy participation (569 sessions).
+Age: Gen X exhibits the highest depression levels but also the longest sleep hours.
+Education: Advanced degrees correlate with elevated stress counts
+Employment: Employed individuals lead in substance use, followed closely by students.
+Comparison with Initial Findings
+Initial expectations suggested younger generations would report higher depression, but data indicates otherwise — Gen X leads, implying mid-life stress factors dominate.
+
+7. Data Visualizations & Charts
+Dashboard Overview
+The dashboard consolidates all key mental health metrics into a unified visual platform.
+Each chart contributes to identifying target populations for intervention.
+
+Bar Chart: Depression Score by Age — Measures generational differences in depression.
+
+Line Graph: Family History of Mental Illness — Tracks hereditary influence by gender.
+
+Bar Chart: Sleep Hours by Age — Highlights lifestyle impact on rest quality.
+
+Bar Chart: Stress Level by Education — Links academic attainment to stress.
+
+Pie Chart: Therapy Count by Gender — Illustrates therapy access distribution.
+
+Bar Chart: Substance Use by Employment — Evaluates behavioral coping mechanisms.
+
+8. Recommendations and Observations
+Optimizations or Business Decisions
+Targeted Therapy: Focus resources on Gen X and highly educated individuals.
+Workplace Programs: Address employee mental health through substance-use awareness campaigns.
+Youth Support: Expand sleep management and resilience training for Gen Z.
+Unexpected Outcomes
+Higher depression among Gen X contradicts popular focus on Gen Z mental health crises.
+PhD-level stress surpasses that of employed groups, suggesting academic support initiatives are needed.
+9. Conclusion
+Key Learnings
+Data-driven approaches reveal hidden mental health patterns across demographics. The combination of high depression among Gen X, elevated stress in academics, and sleep deprivation among youth emphasizes the need for differentiated interventions.
+
+Future Research
+Further studies should expand datasets, include income levels, regional diversity, and long-term tracking of therapy outcomes to enhance predictive modeling of mental health trends.
+
+10. References & Appendices
+References
+Data Source — Kaggle.
+Institution — Vephla University.
+Analyst — Oluwanisola Odunyemi
+Appendices
+Appendix A: Full Excel data table.
+Appendix B: Dashboard screenshots, Pivot Table and Pivot Charts
